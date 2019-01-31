@@ -1,0 +1,48 @@
+<view style='height:100%;'>
+
+  <block>
+    <view class='head'>
+      <!-- <image src="https://captainkk.cn/resources/star.jpg" class='headImage' mode='aspectFill'></image> -->
+      <image src="{{serverUrl}}/../kk_video_dev{{picPathUrl}}" class='headImage' mode='aspectFill'></image>
+      <!-- <image src="../resource/images/spring.jpg" class='headImage' mode='aspectFill'></image> -->
+      <!-- <text>{{serverUrl}}/../kk_video_dev{{picPathUrl}}</text> -->
+    </view>
+  </block>
+
+  <view class='neck'>
+    <view>　</view>
+    <view>　</view>
+  </view>
+
+  <view class='body'>
+    <view class='body-line'>　</view>
+   <!-- <view class='poem'>我听说人的一生，既不是人们想象的那么好，也不是那么坏</view>  -->
+    <view class='poem'>{{wordsUrl}}</view> 
+     <view class='body-line'>　</view>
+  </view>
+
+  <view class='leg'>
+    <!-- <view class='poem' style='text-align:right;'><text>--siri　　</text></view> -->
+     <view class='poem' style='text-align:right;'><text>--{{writterUrl}}　　</text></view>
+  </view>
+
+  <view class='footer'>
+
+    <view class='line'></view>
+    <view class='word'>
+      <view class='second'>　谢谢你到访我的星球</view>
+      <view class='second'>　　</view>
+      <view class='first'>　　长按识别二维码到访「未知星球」</view>
+
+    </view>
+
+    <view class='share'>
+      <image src="../resource/images/pic.jpg" class='shareImage' mode='aspectFit'> </image>
+    </view>
+
+    <view class='line'></view>
+   
+  </view>
+
+   <view style='height:1px;'></view>
+</view>

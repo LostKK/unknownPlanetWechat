@@ -1,0 +1,56 @@
+/* pages/about/about.wxss */
+
+page {
+  background-color: rgb(245, 245, 245);
+  background-image: url('https://captainkk.cn/resources/color3.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+}
+
+.container {
+  /* background-color: whitesmoke; */
+  background: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.face {
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.mod-text {
+  background: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+   writing-mode: vertical-rl; 
+  justify-content: center;
+}
+
+.topic{
+  font-size:40rpx;
+}
+
+.article{
+  font-size:30rpx
+}
+
+.footer{
+  background: white;
+  opacity: 0.5;
+  height: 270px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.foot{
+  position: relative;
+   z-index: 1;
+}

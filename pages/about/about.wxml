@@ -1,0 +1,38 @@
+<!--pages/about/about.wxml-->
+
+
+<view class='container'>
+  <image src='https://captainkk.cn/resources/pic.jpg' class='face'></image>
+</view>
+
+<view>　</view>
+
+<view class='mod-text'>
+  <text>Created by KK</text>
+</view>
+<view>　　</view>
+
+<view class='footer'></view>
+
+<view class='foot'>
+<view>　　</view>
+
+<view>
+  <view class='topic'>　简介</view>
+  <view class='article'>　一个简单的第三方小程序</view>
+  <view class='article'>　为你提供短视频社交分享以及图文分享</view>
+  <view class='article'>　这个世界很精彩,</view>
+</view>
+<view>　　</view>
+<view>
+  <view class='line'></view>
+  <view class='topic'>　联系</view>
+  <view class='article'>　微信：Captain KK</view>
+  <view class='article'>　QQ：1395175536</view>
+  <view class='article'>　邮箱：1395175536@qq.com</view>
+  <view class='article'>　网站：https://captainkk.cn</view>
+</view>
+
+</view>
+
+<audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio"   bindplay="funplay" bindpause="funpause" bindtimeupdate="funtimeupdate" bindended="funended" binderror="funerror"></audio>

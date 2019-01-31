@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/more/more",
+    "pages/userLogin/login",
+    "pages/music/music",
+    "pages/mine/mine",
+    "pages/userRegist/regist",
+    "pages/logs/logs",
+    "pages/videoInfo/videoInfo",
+    "pages/searchVideo/searchVideo",
+    "pages/report/report",
+    "pages/about/about",
+    "pages/test/test"
+  ],
+  "window": {
+    "backgroundTextStyle": "black",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "未知星球",
+    "navigationBarTextStyle": "black"
+  },
+  "debug": false
+}

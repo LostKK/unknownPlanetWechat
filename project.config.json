@@ -1,0 +1,99 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.4.2",
+	"appid": "wxfecf3805682ae892",
+	"projectname": "kk_video",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "登录",
+					"pathName": "pages/userLogin/login",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "音乐",
+					"pathName": "pages/music/music",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "首页",
+					"pathName": "pages/index/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/mine/mine",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "举报",
+					"pathName": "pages/report/report",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "regist",
+					"pathName": "pages/userRegist/regist",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "more",
+					"pathName": "pages/more/more",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "关于",
+					"pathName": "pages/about/about",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "test",
+					"pathName": "pages/test/test",
+					"query": ""
+				}
+			]
+		}
+	}
+}

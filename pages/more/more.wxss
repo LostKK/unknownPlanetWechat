@@ -1,0 +1,103 @@
+/* pages/more/more.wxss */
+page{
+  height: 100%;
+  width: 100%;
+}
+
+.head{
+  height:35%;
+}
+
+.neck{
+  height: 10%;
+}
+
+.body{
+  background:white;
+  height:25%;
+  width: 100%;
+  display: flex;
+}
+
+.leg{
+  background:white;
+  height:10%;
+  width: 100%;
+}
+
+.footer{
+  background:#00ffff;
+  height:20%;
+  width: 100;
+  display: flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+}
+
+.headImage{
+  width: 750rpx;
+}
+
+.share{
+  background:#00ffff;
+  width:150px;
+  height: 80%;
+}
+
+.word{
+  display: block;
+}
+
+.first{
+ font-size:20rpx;
+ font-weight: bold;
+ display: flex;
+ top:10px;
+ color: white;
+}
+
+.second{
+  font-size:40rpx;
+  font-weight: normal;
+  color: white;
+}
+
+.shareImage{
+  height: 100%;
+  width: 100%;
+}
+
+.line{
+  height: 10%;
+  background: #00ffff;
+  width: 100%;
+}
+
+.poem{
+  font-size: 20px;
+  font-weight: normal;
+  font-family: "宋体";
+}
+
+.left-word{
+  height:100%;
+  width: 10%;
+  background: green;
+}
+
+.middle-word{
+  height:100%;
+  width: 80%;
+}
+
+.right-word{
+  height:100%;
+  width: 10%;
+  background: green;
+}
+
+.body-line{
+  height: 100%;
+  width:10;
+  background: white;
+}

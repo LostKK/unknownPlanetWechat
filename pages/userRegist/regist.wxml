@@ -1,0 +1,33 @@
+<view>
+     <view class="login-icon" style='height:150px;'>
+        <!-- <image class="login-img" src="../resource/images/captain.jpg"></image> -->
+    </view>
+    <view class="login-from">
+        <form bindsubmit='doRegist'>
+            <!--账号-->
+            <view class="inputView">
+                <image class="nameImage" src="../resource/images/1.png"></image>
+                <label class="loginLabel">账号</label>
+                <input name="username" class="inputText" placeholder="请输入账号"/>
+            </view>
+            
+            <view class="line"></view>
+
+            <!--密码-->
+            <view class="inputView">
+                <image class="keyImage" src="../resource/images/2.png"></image>
+                <label class="loginLabel">密码</label>
+                <input name="password" class="inputText" password="true" placeholder="请输入密码"/>
+            </view>
+
+            <!--按钮-->
+            <view>
+                <button class="loginBtn" style='background:none;color:white' form-type='submit'>注册</button>
+            </view>
+
+            <view>
+                <button class="goLoginBtn" style='background:none;color:white' bindtap="goLoginPage">返回登录</button>
+            </view>
+        </form>
+    </view>
+</view>
