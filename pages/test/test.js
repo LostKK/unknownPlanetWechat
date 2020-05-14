@@ -28,13 +28,6 @@ Page({
     }
   },
 
-
-
-
-
-
-
-
   audioPlay: function () {
     this.audioCtx.play()
   },

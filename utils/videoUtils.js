@@ -2,7 +2,7 @@ function uploadVideo() {
   var that = this;
 
   wx.chooseVideo({
-    sourceType: ['camera'],
+    sourceType: ['album'],
     success: function(res) {
       console.log(res);
 

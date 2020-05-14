@@ -25,11 +25,9 @@ objectFit="{{cover}}"
  
  </cover-view>
 
-
 <cover-view class='container-me'>
             <!-- 头像 -->
             <cover-image class="face" src='{{serverUrl}}{{publisher.faceImage}}' bindtap='showPublisher'></cover-image>
-
 
             <!-- 喜欢收藏按钮 -->
             <block wx:if="{{userLikeVideo}}">
@@ -38,7 +36,6 @@ objectFit="{{cover}}"
             <block wx:else>
                 <cover-image class="size-me" src='../resource/images/smile1.png' style='margin-top:30rpx;' bindtap='likeVideoOrNot'></cover-image>
             </block>
-
 
             <!-- 评论按钮 -->
             <cover-image class="size-me" src='../resource/images/comments.png' style='margin-top:30rpx;' bindtap='leaveComment'></cover-image>
